@@ -1,0 +1,50 @@
+﻿Build started 5/14/2016 7:19:47 AM.
+     1>Project "C:\Users\danle\OneDrive\CIT 284\Homework\CIT284 DN Final Project\CIT284 DN Final Project\CIT284 DN Final Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CIT284 DN Final Project.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "CIT284 DN Final Project.cpp" "CIT284 DN Final ProjectDlg.cpp"
+         CIT284 DN Final Project.cpp
+         CIT284 DN Final ProjectDlg.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\danle\OneDrive\CIT 284\Homework\CIT284 DN Final Project\Debug\CIT284 DN Final Project.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\danle\OneDrive\CIT 284\Homework\CIT284 DN Final Project\Debug\CIT284 DN Final Project.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 "Debug\CIT284 DN Final Project.res"
+         Debug\AttributeDLG.obj
+         Debug\ChangeDirectoryDLG.obj
+         "Debug\CIT284 DN Final Project.obj"
+         "Debug\CIT284 DN Final ProjectDlg.obj"
+         Debug\CopyDialog.obj
+         Debug\CreateDirectoryDLG.obj
+         Debug\DateTimeDLG.obj
+         Debug\EditDLG.obj
+         Debug\MoveDLG.obj
+         Debug\PrintDLG.obj
+         Debug\RemoveDirDLG.obj
+         Debug\RenameDLG.obj
+         Debug\SplashDLG.obj
+         Debug\stdafx.obj
+         Debug\TypeDLG.obj
+         CIT284 DN Final Project.vcxproj -> C:\Users\danle\OneDrive\CIT 284\Homework\CIT284 DN Final Project\Debug\CIT284 DN Final Project.exe
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: The "METAGEN" task failed unexpectedly.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: System.BadImageFormatException: Could not load file or assembly 'file:///C:\Users\danle\OneDrive\CIT 284\Homework\CIT284 DN Final Project\Debug\CIT284 DN Final Project.exe' or one of its dependencies. The module was expected to contain an assembly manifest.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: File name: 'file:///C:\Users\danle\OneDrive\CIT 284\Homework\CIT284 DN Final Project\Debug\CIT284 DN Final Project.exe'
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at System.Reflection.Assembly.ReflectionOnlyLoadFrom(String assemblyFile)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at Microsoft.Build.CPPTasks.MetaDumper.GenerateAssemblyMeta(String theModule, String refSearchPath)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at Microsoft.Build.CPPTasks.MetaDumper.GenerateAssemblyMeta(String theModule, String refSearchPath)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at Microsoft.Build.CPPTasks.AsmMeta.CreateMeta(String assemblyFileName, String searchPath, String metaFileName)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at Microsoft.Build.CPPTasks.METAGEN.Execute()
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at Microsoft.Build.BackEnd.TaskExecutionHost.Microsoft.Build.BackEnd.ITaskExecutionHost.Execute()
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at Microsoft.Build.BackEnd.TaskBuilder.<ExecuteInstantiatedTask>d__20.MoveNext()
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: WRN: Assembly binding logging is turned OFF.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: Note: There is some performance penalty associated with assembly bind failure logging.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: 
+     1>Done Building Project "C:\Users\danle\OneDrive\CIT 284\Homework\CIT284 DN Final Project\CIT284 DN Final Project\CIT284 DN Final Project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.98
